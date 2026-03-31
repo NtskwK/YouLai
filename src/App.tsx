@@ -1,5 +1,4 @@
-import { invoke } from "@tauri-apps/api/core";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import { MapContainer } from "./components/MapContainer";
 
