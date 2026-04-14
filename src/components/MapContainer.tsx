@@ -6,7 +6,7 @@ export function MapContainer() {
 	useEffect(() => {
 		const map = L.map("map", {
 			attributionControl: false,
-		}).setView([51.505, -0.09], 13);
+		}).setView([22.82402, 108.320004], 12);
 
 		L.tileLayer(
 			"https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png",
