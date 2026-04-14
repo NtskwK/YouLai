@@ -39,5 +39,5 @@ The application has a simple single-page structure:
 
 ## Important Notes
 
-- **Always run `pnpm format` and `pnpm lint` after modifying code** to ensure code quality consistency.
+- **Always run `pnpm format` and `pnpm tsc --noEmit` after modifying code** to ensure code quality consistency.
 - Tailwind CSS v4 uses a different configuration approach - no tailwind.config.js needed, using `@tailwindcss/vite` plugin instead.
