@@ -18,6 +18,9 @@ export function Layout() {
 					<Outlet />
 				</div>
 			</main>
+			<footer className="shrink-0 px-4 py-2 text-xs text-gray-400 text-center">
+				design by NtskwK
+			</footer>
 		</div>
 	);
 }
