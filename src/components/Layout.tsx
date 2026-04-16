@@ -1,7 +1,6 @@
-import "./App.css";
-import { MapContainer } from "./components/MapContainer";
+import { Outlet } from "react-router-dom";
 
-function App() {
+export function Layout() {
 	return (
 		<div className="h-screen w-screen flex flex-col">
 			<header className="shrink-0 bg-white border-b border-gray-100 px-4 py-2 md:px-6 md:py-4">
@@ -14,13 +13,11 @@ function App() {
 					</p>
 				</div>
 			</header>
-			<div className="flex-1 min-h-0 p-1 md:p-4">
+			<main className="flex-1 min-h-0 p-1 md:p-4">
 				<div className="max-w-6xl mx-auto h-100 rounded-lg overflow-hidden">
-					<MapContainer />
+					<Outlet />
 				</div>
-			</div>
+			</main>
 		</div>
 	);
 }
-
-export default App;
