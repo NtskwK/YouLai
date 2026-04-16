@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export function Layout() {
 	return (
@@ -19,7 +19,8 @@ export function Layout() {
 				</div>
 			</main>
 			<footer className="shrink-0 px-4 py-2 text-xs text-gray-400 text-center">
-				design by NtskwK
+				design by <a href="https://github.com/NtskwK">NtskwK</a> |{" "}
+				<Link to="/about">About</Link>
 			</footer>
 		</div>
 	);
